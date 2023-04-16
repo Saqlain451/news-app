@@ -1,0 +1,38 @@
+.qna{
+    display: grid;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    background-color: transparent;
+    border-radius: .5rem;
+    width: 100%;  
+}
+
+.dark .qna{
+    
+    box-shadow: 5px 5px 10px #171818, -5px -5px 10px #000000;
+}
+.qna .ques{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    font-size: 1.8rem;
+    color: var(--color-dark-purple);
+    cursor: pointer;
+}
+
+.qna span{
+    font-size: 2rem;
+}
+.qna .ans{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1.5rem 1rem;
+    font-size: 1.7rem;
+    background-color: white;
+}
+
+.dark .qna .ans{
+    background-color: black;
+}

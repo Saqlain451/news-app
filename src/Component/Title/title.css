@@ -1,0 +1,42 @@
+.page-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+}
+
+
+.page-title h1{
+    font-size: 2.6rem;
+}
+.page-title span{
+    color: var(--color-dark-purple);
+}
+.page-title p{
+    font-size: 1.7rem;
+    color: var(--color-dark-purple);
+    cursor: pointer;
+}
+
+@media(width<=768px){
+    .page-title{
+        padding: 2rem;
+    }
+}
+
+@media(width<=421px){
+    .page-title{
+        padding: 2rem 0rem;
+    }
+    .page-title h1{
+        font-size: 2rem;
+    }
+    .page-title p{
+        font-size: 1.5rem;
+        color: var(--color-dark-purple);
+        cursor: pointer;
+    }
+}
+
+
+
