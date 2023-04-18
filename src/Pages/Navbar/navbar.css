@@ -37,8 +37,14 @@ header .navbar-logo a{
     height: auto;
 }
 
+.nav-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
 
-header span{
+.nav-btns span, .nav-btns span a{
     width: 4rem;
     height: 4rem;
     display: flex;
@@ -50,7 +56,9 @@ header span{
     font-size: 2rem;
     cursor: pointer;
     box-shadow: -3px 3px 3px rgba(0,0,0,0.2);
+    
 }
+
 
 @media(width<=768px){
     header{
@@ -60,6 +68,6 @@ header span{
 
 @media(width<=421px){
     header{
-        padding: 0rem 2rem;
+        padding: 0rem 1rem;
     }
 }
